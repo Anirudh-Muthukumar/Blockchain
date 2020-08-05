@@ -1,7 +1,4 @@
 """
-In this assignment you will extend and implement a class framework to create a simple but functional blockchain that combines the ideas of proof-of-work, transactions, blocks, and blockchains.
-You may create new member functions, but DO NOT MODIFY any existing APIs.  These are the interface into your blockchain.
-
 Many functions are not implemented -- they just call "pass".  You need to implement them.
 
 This blockchain has the following consensus rules (it is a little different from Bitcoin to make testing easier):
@@ -17,8 +14,8 @@ Instead, your code will be expected to properly place blocks of different diffic
 
 Block Merkle Tree
 
-1. You must use sha256 hash 
-2. You must use 0 if additional items are needed to pad odd merkle levels
+1. Uses sha256 hash 
+2. Uses 0 if additional items are needed to pad odd merkle levels
 (more specific information is included below)
 
 Transactions
